@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">ACT-4600</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA70bKol+wg0+OTWvHdfTNyAAAAAACAAAAAAAQZgAAAAEAACAAAAAhhDExPq5GgJNhVVUchx5ZW4UaXplq6wIAUoiouLvDwgAAAAAOgAAAAAIAACAAAAB45N1qfqTeYDZ3gqTUdWhc/z9LEeMJHb1kPeNL88BLcZAAAACmR9aaaJmZdquqVr/DzeYev7/Fiz/cwOLGLhPjR3aBuo0kvMMrmTDxVicsNm0gOFNqG0aKoTZQS8q+OgyvOBgL/Hn+8PwIJHWE2xFzXQX/oqLCTX5sqTLRecqut6iRVJCk44qrUBy8FJMAzPGd0y0Oy/cfmYhN14Lq63KJe0/MgHgE9HsbFhBmDcZL1B37SZ5AAAAAonIGlPsZvmylsryqATWS/pdLElKJ8FoWIaeTWMnVsQAt97oDsKvPZ7lIfI83weRF9DgSPGHafEIVjJYs0EbjMg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA70bKol+wg0+OTWvHdfTNyAAAAAACAAAAAAAQZgAAAAEAACAAAABc7Agb+4DBJOCdMHSWp9yP5Yi1aEWho1EupbyiWWNu8AAAAAAOgAAAAAIAACAAAABP+pQPN9tio1xBpLr91uu6FjcUIvbnPW7h5mS+WEbIe5AAAAA2BIZb/JjkjcJJaXkxPpF0MhBdNvFRYVEZBww3hh9uy3cyHZZR5GPdurqjUOVdzCCfcL2vQ9iv1Pfg9CCGx5LEu9VF7udXaezZHWFJPSRuIELUNSLqLPEziTtN4QeDGSDyKuhIzMrADokSTxulwZZb08bsKoSOOfInSdcHjLzsoaSyLHW5Wgq/hx0Jbcz2pjZAAAAAi6PdQVJxIzETTAACJ8FyRUvAgZvSlzprMzrWSxXk9+Gna1G0JNHUcTb1B5PBYyNJSXJklqXyAV575HtifmzNwA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Extração Excel Criteria</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">172</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">182</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{66166A82-FCAE-420D-B0DB-57E0162538CB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{70589A01-EADA-4A24-ABDB-659FCC56DA2A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -935,7 +935,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).ApplicationName">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).ApplicationName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -951,7 +951,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).ClientCertificatePassword">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).ClientCertificatePassword">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -965,7 +965,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).ClientCertificatePath">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).ClientCertificatePath">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -981,7 +981,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).ClientCertificateStorageType">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).ClientCertificateStorageType">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -996,7 +996,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).ClientCertificateStoreName">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).ClientCertificateStoreName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1011,7 +1011,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).ClientCertificateThumbPrint">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).ClientCertificateThumbPrint">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1027,7 +1027,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).ClientEncoding">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).ClientEncoding">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1043,7 +1043,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).CommandTimeout">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).CommandTimeout">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1058,7 +1058,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1073,7 +1073,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1084,11 +1084,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Host=ec2-34-233-214-228.compute-1.amazonaws.com;Port=5432;UserName=qnrrygmxkmuuok;Database=d43t4t284tj371;EnableSsl=True;Application=;Timeout=30;CommandTimeout=0;Pooling=;IntegratedSecurity=False;KerberosServiceName=;IncludeRealm=False;TcpKeepAlive=True;TcpKeepAliveTime=0;TcpKeepAliveInterval=0;ClientEncoding=;Encoding=;RetainSameConnection=True;UseClientCertificate=False;CertificatePath=;CertificateStorageType=CurrentUser;CertificateStoreName=My;CertificateThumbprint=</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Host=104.236.64.149;Port=5432;UserName=postgres;Database=criteriadb;EnableSsl=True;Application=;Timeout=30;CommandTimeout=0;Pooling=;IntegratedSecurity=False;KerberosServiceName=;IncludeRealm=False;TcpKeepAlive=True;TcpKeepAliveTime=0;TcpKeepAliveInterval=0;ClientEncoding=;Encoding=;RetainSameConnection=True;UseClientCertificate=False;CertificatePath=;CertificateStorageType=CurrentUser;CertificateStoreName=My;CertificateThumbprint=</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).Database">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).Database">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1099,11 +1099,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">d43t4t284tj371</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">criteriadb</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).EnableSsl">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).EnableSsl">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1118,7 +1118,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).Encoding">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).Encoding">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1134,7 +1134,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).Host">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).Host">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1145,11 +1145,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">ec2-34-233-214-228.compute-1.amazonaws.com</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">104.236.64.149</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).IncludeRealm">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).IncludeRealm">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1164,7 +1164,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).IntegratedSecurity">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).IntegratedSecurity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1179,7 +1179,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).KerberosServiceName">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).KerberosServiceName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1195,7 +1195,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).Password">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1209,7 +1209,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).Pooling">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).Pooling">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1225,7 +1225,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).Port">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).Port">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1240,7 +1240,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1255,7 +1255,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).TargetServerVersion">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).TargetServerVersion">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1270,7 +1270,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).TcpKeepAlive">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).TcpKeepAlive">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1285,7 +1285,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).TcpKeepAliveInterval">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).TcpKeepAliveInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1300,7 +1300,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).TcpKeepAliveTime">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).TcpKeepAliveTime">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1315,7 +1315,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).Timeout">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).Timeout">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1330,7 +1330,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).UseClientCertificate">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).UseClientCertificate">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1345,7 +1345,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Dev (Nova Data).UserName">
+                <SSIS:Parameter SSIS:Name="CM.Criteria Heroku Produção (Nova Data).UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1356,7 +1356,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">qnrrygmxkmuuok</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">postgres</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
